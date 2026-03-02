@@ -26,6 +26,7 @@
     global-quick-tap;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
+    require-prior-idle-ms = <125>;
 };
 
 / {
@@ -140,19 +141,19 @@
 
         num_sym_right {
             bindings = <
-        &trans    &trans    &trans     &trans     &trans    &kp N6          &kp N7        &kp N8        &kp N9        &kp N0
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LS(CARET)   &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
-&trans  &trans    &trans    &trans     &trans     &trans    &kp LEFT_BRACE  &kp RBRC      &trans        &trans        &kp BACKSLASH  &kp GRAVE
-                            &trans     &trans     &trans    &trans          &trans        &trans
+        &trans    &trans    &trans     &trans     &trans    &kp N6            &kp N7          &kp N8           &kp N9             &kp N0
+        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LS(CARET)     &kp LS(AMPS)    &kp LS(STAR)     &kp LS(LPAR)       &kp LS(RPAR)
+&trans  &trans    &trans    &trans     &trans     &trans    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp GRAVE
+                            &trans     &trans     &trans    &trans            &trans          &trans
             >;
         };
 
         num_sym_left {
             bindings = <
-        &kp N1        &kp N2      &kp N3         &kp N4            &kp N5               &trans  &trans     &trans     &trans    &trans
-        &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)      &kp LS(PRCNT)        &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
-&trans  &kp TILDE     &trans      &kp PIPE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &trans     &trans     &trans    &trans    &trans
-                                  &kp MINUS      &kp PLUS          &lt 4 EQUAL          &trans  &trans     &trans
+        &kp N1        &kp N2      &kp N3         &kp N4                &kp N5                   &trans  &trans     &trans     &trans    &trans
+        &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)          &kp LS(PRCNT)            &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
+&trans  &kp TILDE     &trans      &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans     &trans     &trans    &trans    &trans
+                                  &kp MINUS      &kp PLUS              &lt 4 EQUAL              &trans  &trans     &trans
             >;
         };
 
