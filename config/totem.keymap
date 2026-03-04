@@ -96,19 +96,19 @@
 
         numbers {
             bindings = <
-           &kp N9     &kp N8     &kp N7     &kp N6                &kp N5                   &trans  &trans           &trans     &trans         &trans
-           &kp N4     &kp N3     &kp N2     &kp N1                &kp N0                   &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
-&kp COMMA  &kp TILDE  &kp SLASH  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans           &trans     &trans         &trans             &trans
-                                 &kp MINUS  &kp PLUS              &lt 4 EQUAL              &trans  &trans           &trans
+        &trans     &kp N8        &kp N7        &kp N6        &trans    &trans  &trans           &trans     &trans         &trans
+        &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
+&trans  &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans  &trans           &trans     &trans         &trans             &trans
+                                 &trans        &kp N0        &mo 4     &trans  &trans           &trans
             >;
         };
 
         symbols {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp EXCL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kt AMPS
-        &trans  &trans  &trans  &trans  &trans    &kp AT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kt POUND  &kp DOLLAR
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp BACKSLASH  &kt GRAVE
-                        &trans  &trans  &trans    &lt 4 EQUAL  &kp PLUS              &kp MINUS
+        &trans            &trans        &trans     &trans          &trans    &kp EXCL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kt AMPS
+        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp AT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kt POUND  &kp DOLLAR
+&trans  &trans            &trans        &trans     &trans          &trans    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp BACKSLASH  &kt GRAVE
+                                        &trans     &trans          &trans    &lt 4 EQUAL  &kp PLUS              &kp MINUS
             >;
         };
 
