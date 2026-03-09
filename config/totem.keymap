@@ -90,7 +90,7 @@
         &trans            &trans        &trans     &trans          &trans    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
         &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans            &trans        &trans     &trans          &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-                                        &trans     &trans          &trans    &trans          &trans          &trans
+                                        &trans     &trans          &trans    &trans          &kp DEL         &trans
             >;
         };
 
@@ -106,7 +106,7 @@
         symbols {
             bindings = <
         &trans            &trans        &trans     &trans          &trans    &kp EXCL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kt AMPS
-        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp AT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kt POUND  &kp DOLLAR
+        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp AT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND  &kp DOLLAR
 &trans  &trans            &trans        &trans     &trans          &trans    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp BACKSLASH  &kt GRAVE
                                         &trans     &trans          &trans    &lt 4 EQUAL  &kp PLUS              &kp MINUS
             >;
