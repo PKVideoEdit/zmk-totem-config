@@ -21,14 +21,6 @@
 #define SYM  2
 #define ADJ  3
 
-&mt {
-    quick-tap-ms = <100>;
-    global-quick-tap;
-    flavor = "tap-preferred";
-    tapping-term-ms = <170>;
-    require-prior-idle-ms = <125>;
-};
-
 / {
     behaviors {
         hm_l: homerow_mods_left {
