@@ -109,9 +109,9 @@
 
         symbols {
             bindings = <
-        &trans            &trans        &trans     &trans          &trans    &kp EXCL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kt AMPS
+        &trans            &trans        &trans     &trans          &trans    &kp EXCL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kp AMPS
         &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp AT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND  &kp DOLLAR
-&trans  &trans            &trans        &trans     &trans          &trans    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp BACKSLASH  &kt GRAVE
+&trans  &trans            &trans        &trans     &trans          &trans    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp BACKSLASH  &kp GRAVE
                                         &trans     &trans          &trans    &lt 5 EQUAL  &kp PLUS              &kp MINUS
             >;
         };
