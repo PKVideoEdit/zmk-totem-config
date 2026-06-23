@@ -82,10 +82,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-                      &kp Q         &kp W         &kp E          &kp R          &kp T           &kp Y        &kp U          &kp I          &kp O         &kp P
-                      &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F  &kp G           &kp H        &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L  &hm_r RGUI SEMI
-&mt LEFT_SHIFT MINUS  &kp Z         &kp X         &kp C          &kp V          &kp B           &kp N        &kp M          &kp COMMA      &kp DOT       &kp SLASH        &mt RIGHT_SHIFT SINGLE_QUOTE
-                                                  &kp TAB        &lt 1 SPACE    &lt 3 ESCAPE    &lt 2 ENTER  &kp BACKSPACE  &lt 4 MINUS
+                      &kp Q         &kp W         &kp E          &kp R          &kp T           &kp Y          &kp U          &kp I          &kp O         &kp P
+                      &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F  &kp G           &kp H          &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L  &hm_r RGUI SEMI
+&mt LEFT_SHIFT MINUS  &kp Z         &kp X         &kp C          &kp V          &kp B           &kp N          &kp M          &kp COMMA      &kp DOT       &kp SLASH        &mt RIGHT_SHIFT SINGLE_QUOTE
+                                                  &kp TAB        &lt 1 SPACE    &lt 1 ESCAPE    &kp BACKSPACE  &lt 2 SPACE    &lt 4 ENTER
             >;
         };
 
@@ -98,21 +98,21 @@
             >;
         };
 
-        numbers {
+        num_sym_left {
             bindings = <
-        &kp DOLLAR  &kp N7        &kp N8        &kp N9        &kp EQUAL    &trans  &trans           &trans     &trans         &trans
-        &kp GRAVE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS     &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
-&trans  &kp TILDE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans           &trans     &trans         &trans             &trans
-                                  &trans        &kp N0        &mo 5        &trans  &trans           &trans
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &trans  &trans           &trans     &trans         &trans
+        &kp GRAVE     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS     &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
+&trans  &kp TILDE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &trans  &trans           &trans     &trans         &trans             &trans
+                                    &trans        &kp N0        &mo 5        &trans  &trans           &trans
             >;
         };
 
-        symbols {
+        num_sym_right {
             bindings = <
-        &trans            &trans        &trans     &trans          &trans    &kp EXCL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET  &kp AMPS
-        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp AT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND  &kp DOLLAR
-&trans  &trans            &trans        &trans     &trans          &trans    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp BACKSLASH  &kp GRAVE
-                                        &trans     &trans          &trans    &lt 5 EQUAL  &kp PLUS              &kp MINUS
+        &trans            &trans        &trans     &trans          &trans    &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp N0
+        &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans            &trans        &trans     &trans          &trans    &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE          &kp BACKSLASH      &kp GRAVE
+                                        &trans     &trans          &trans    &lt 5 EQUAL   &kp PLUS              &kp MINUS
             >;
         };
 
