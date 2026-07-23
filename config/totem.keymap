@@ -50,14 +50,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 14>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         gif: gif {
@@ -93,7 +86,7 @@
 
         nav_layer {
             bindings = <
-        &trans            &trans        &trans     &trans          &trans    &kp END          &kp PAGE_DOWN   &kp PAGE_UP     &kp HOME         &kp LEFT_BRACKET
+        &trans            &trans        &trans     &trans          &trans    &kp HOME         &kp PAGE_DOWN   &kp PAGE_UP     &kp END          &kp LEFT_BRACKET
         &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp SQT
 &trans  &trans            &trans        &trans     &trans          &trans    &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT   &trans            &trans
                                         &trans     &trans          &trans    &kp DEL          &bt BT_SEL 0    &bt BT_SEL 1
