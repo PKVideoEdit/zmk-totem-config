@@ -50,7 +50,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        right_click {
+            bindings = <&none>;
+            key-positions = <16 17>;
+        };
+
+        left_click {
+            bindings = <&none>;
+            key-positions = <12 13>;
+        };
+    };
 
     macros {
         gif: gif {
